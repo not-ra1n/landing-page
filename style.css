@@ -8,14 +8,20 @@ body {
 
 .black {
     background-color: #1f2937;
+    padding: 25px 150px 50px;
 }
 .header {
-    font-size: 24px;
-    color: #f9faf8;
+    
     display: flex;
     justify-content: space-between;
     padding: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
 }
 
 ul {
@@ -41,14 +47,15 @@ a {
 .container {
     display: flex;
     width: 480px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
 }
 .hero {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: 8px;
 }
 
@@ -61,4 +68,28 @@ a {
 .signup {
     background-color: #3882F6;
     color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+}
+
+.image {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 80%;
+    height: 250px;
+    color: white;
+    margin-left: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
