@@ -2,10 +2,12 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Roboto, 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+section1 {
     display: flex;
     flex-direction: column;
 }
-
 .black {
     background-color: #1f2937;
     padding: 25px 150px 50px;
@@ -44,7 +46,7 @@ a {
     gap: 16px;
 }
 
-.container {
+.container1 {
     display: flex;
     width: 480px;
     justify-content: center;
@@ -52,6 +54,13 @@ a {
     flex-direction: row;
     flex: 1;
 }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 0px 0px 100px 0px;
+} 
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -68,13 +77,19 @@ a {
 .signup {
     background-color: #3882F6;
     color: white;
-}
-
-button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 8px;
     border: 1px solid royalblue;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
 .image {
@@ -92,4 +107,75 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 32px;
+    padding-top: 50px;
+}
+
+.illustration {
+    max-width: 300px;
+}
+
+section2 {
+    text-align: center;
+}
+
+.subtext-img {
+    border: 3px solid #0096ff;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.text {
+    padding-top: 10px;
+    width: 150px;
+  }
+
+.thor-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+section3 {
+    display: flex;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.container3 {
+    padding: 100px;
+}
+
+.call-action {
+    font-weight: 600;
+}
+
+.call-action-info {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section4 {
+    display: flex;
+    justify-content: center;
+    padding: 75px 10px;
+    flex-direction: row;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: white;
+    padding: 50px;
+    flex-basis: 70%;    
 }
